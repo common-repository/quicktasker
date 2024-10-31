@@ -1,0 +1,903 @@
+# Copyright (C) 2024 Siim Kirjanen
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: QuickTasker 1.3.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/quicktasker\n"
+"POT-Creation-Date: 2024-10-23T20:28:35+02:00\n"
+"PO-Revision-Date: 2024-10-24 11:17+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Domain: quicktasker\n"
+
+#. Plugin Name of the plugin
+#: quicktasker.php
+msgid "QuickTasker"
+msgstr ""
+
+#. Description of the plugin
+#: quicktasker.php
+msgid ""
+"Task management plugin to get tasks done with the help of assigned users."
+msgstr "Ülesannete haldamise pistikprogramm määratud kasutajate abiga."
+
+#. Author of the plugin
+#: quicktasker.php
+msgid "Siim Kirjanen"
+msgstr ""
+
+#. Author URI of the plugin
+#: quicktasker.php
+msgid "https://github.com/SiimKirjanen"
+msgstr ""
+
+#: php/admin-pages.php:20 php/admin-pages.php:21
+msgid "Boards"
+msgstr "Tahvel"
+
+#: php/admin-pages.php:38 php/admin-pages.php:39
+msgid "Users"
+msgstr "Kasutaja"
+
+#: php/admin-pages.php:47 php/admin-pages.php:48 build/app.js:83
+msgid "User sessions"
+msgstr "Kasutajaseansid"
+
+#: php/admin-pages.php:56 php/admin-pages.php:57 build/app.js:83
+msgid "Archive"
+msgstr "Arhiiv"
+
+#: build/app.js:1 build/userApp.js:1
+msgid "Something went wrong. Please refresh the page."
+msgstr "Midagi läks valesti. Palun värskendage lehte."
+
+#: build/app.js:1
+msgid "Failed to fetch archived tasks"
+msgstr "Arhiivitud ülesannete laadimine ebaõnnestus"
+
+#: build/app.js:83
+msgid "Filter tasks"
+msgstr "Filtreeri ülesandeid"
+
+#: build/app.js:83
+msgid "All status"
+msgstr "Kõik olekud"
+
+#: build/app.js:83
+msgid "Completed"
+msgstr "Valmis"
+
+#: build/app.js:83
+msgid "Not completed"
+msgstr "Pooleli"
+
+#: build/app.js:83
+msgid "Unable to load the board. Please try again later."
+msgstr "Tahvlit ei õnnestu laadida. Proovige hiljem uuesti."
+
+#: build/app.js:83
+msgid "Failed to fetch users"
+msgstr "Kasutajate laadimine ebaõnnestus"
+
+#: build/app.js:83
+msgid "Task deleted"
+msgstr "Ülesanne kustutatud"
+
+#: build/app.js:83
+msgid "Failed to delete a task"
+msgstr "Ülesande kustutamine ebaõnnestus"
+
+#: build/app.js:83
+msgid "Task archived"
+msgstr "Ülesanne arhiveeritud"
+
+#: build/app.js:83
+msgid "Failed to archive a task"
+msgstr "Ülesande arhiivimine ebaõnnestus"
+
+#: build/app.js:83
+msgid "Task restored"
+msgstr "Ülesanne taastatud"
+
+#: build/app.js:83
+msgid "Failed to restore a task"
+msgstr "Ülesande taastamine ebaõnnestus"
+
+#: build/app.js:83
+msgid "Task has been unassigned"
+msgstr "Ülesande määramine tühistati"
+
+#: build/app.js:83
+msgid "Task unassignment failed. Try again"
+msgstr "Ülesande määramise tühistamine ebaõnnestus. Proovi uuesti"
+
+#: build/app.js:83 build/userApp.js:83
+msgid "Task marked as completed"
+msgstr "Ülesanne on lõpetatud"
+
+#: build/app.js:83 build/userApp.js:83
+msgid "Task marked as incomplete"
+msgstr "Ülesanne on märgitud pooleli"
+
+#: build/app.js:83
+msgid "Failed to change task status"
+msgstr "Ülesande oleku muutmine ebaõnnestus"
+
+#: build/app.js:83
+msgid "Failed to fetch custom fields"
+msgstr "Kohandatud väljade laadimine ebaõnnestus"
+
+#: build/app.js:83
+msgid "Failed to add a custom field"
+msgstr "Kohandatud välja lisamine ebaõnnestus"
+
+#: build/app.js:83
+msgid "Failed to mark custom field as deleted"
+msgstr "Kohandatud välja kustutatuks märkimine ebaõnnestus"
+
+#: build/app.js:83
+msgid "Failed to update custom field value"
+msgstr "Kohandatud välja väärtuse värskendamine ebaõnnestus"
+
+#: build/app.js:83
+msgid "Custom Fields"
+msgstr "Kohandatud väljad"
+
+#: build/app.js:83 build/userApp.js:83
+msgid "Name"
+msgstr "Nimi"
+
+#: build/app.js:83 build/userApp.js:83
+msgid "Description"
+msgstr "Kirjeldus"
+
+#: build/app.js:83
+msgid "Type"
+msgstr "Tüüp"
+
+#: build/app.js:83
+msgid "Cancel"
+msgstr "Tühista"
+
+#: build/app.js:83
+msgid "Add new custom field"
+msgstr "Lisa uus kohandatud väli"
+
+#: build/app.js:83
+msgid "Add"
+msgstr "Lisa"
+
+#: build/app.js:83
+msgid "Edit custom field value"
+msgstr "Muutke kohandatud välja väärtust"
+
+#: build/app.js:83
+msgid ""
+"This custom field is inherited from %s settings and can't be deleted here"
+msgstr ""
+"See kohandatud väli on päritud teenuse %s seadetest ja seda ei saa siin "
+"kustutada"
+
+#: build/app.js:83
+msgid "No related custom fields created"
+msgstr "Seotud kohandatud välju pole loodud"
+
+#: build/app.js:83
+msgid "Close custom fields"
+msgstr "Sulgege kohandatud väljad"
+
+#: build/app.js:83
+msgid "Show custom fields"
+msgstr "Kuva kohandatud väljad"
+
+#: build/app.js:83
+msgid "Coming soon"
+msgstr "Varsti tulemas"
+
+#: build/app.js:83
+msgid "Add custom fields to this user only."
+msgstr "Lisa kohandatud väljad ainult sellele kasutajale."
+
+#: build/app.js:83
+msgid ""
+"Add custom fields to all users. If you want to add custom fields to a "
+"specific user, please go to that user settings."
+msgstr ""
+"Lisage kohandatud väljad kõigile kasutajatele. Kui soovite konkreetsele "
+"kasutajale kohandatud välju lisada, minge selle kasutaja seadetesse."
+
+#: build/app.js:83
+msgid "Add custom fields to all tasks in this board."
+msgstr "Lisage kohandatud väljad kõikidele selle tahvli ülesannetele."
+
+#: build/app.js:83
+msgid ""
+"Add custom fields to this task only. If you want to add custom fields to all "
+"tasks in this board, please go to board settings."
+msgstr ""
+"Lisage kohandatud väljad ainult sellele ülesandele. Kui soovite lisada "
+"kohandatud väljad kõikidele selle tahvli ülesannetele, minge tahvli "
+"sätetesse."
+
+#: build/app.js:83
+msgid ""
+"Custom fields applied to this task, including both task-specific and board-"
+"level fields."
+msgstr ""
+"Sellele ülesandele rakendatud kohandatud väljad, sealhulgas nii "
+"ülesandepõhised kui ka tahvli tasemel väljad."
+
+#: build/app.js:83
+msgid "User custom fields"
+msgstr "Kasutaja kohandatud väljad"
+
+#: build/app.js:83
+msgid "Users custom fields"
+msgstr "Kasutajate kohandatud väljad"
+
+#: build/app.js:83
+msgid "Board custom fields"
+msgstr "Tahvli kohandatud väljad"
+
+#: build/app.js:83
+msgid "Task custom fields"
+msgstr "Ülesande kohandatud väljad"
+
+#: build/app.js:83 build/userApp.js:83
+msgid "Assigned users"
+msgstr "Määratud kasutajad"
+
+#: build/app.js:83
+msgid "Failed to remove user"
+msgstr "Kasutaja eemaldamine ebaõnnestus"
+
+#: build/app.js:83
+msgid "No users assigned"
+msgstr "Kasutajaid pole määratud"
+
+#: build/app.js:83
+msgid "Assign a user"
+msgstr "Määrake kasutaja"
+
+#: build/app.js:83
+msgid "Failed to assign user"
+msgstr "Kasutaja määramine ebaõnnestus"
+
+#: build/app.js:83
+msgid "No users available to assign"
+msgstr "Määramiseks pole kasutajaid saadaval"
+
+#: build/app.js:83 build/userApp.js:83
+msgid "Admin"
+msgstr "Admin"
+
+#: build/app.js:83 build/userApp.js:83
+msgid "User"
+msgstr "Kasutaja"
+
+#: build/app.js:83
+msgid "Comment added"
+msgstr "Kommentaar lisatud"
+
+#: build/app.js:83
+msgid "Failed to add comment"
+msgstr "Kommentaari lisamine ebaõnnestus"
+
+#: build/app.js:83
+msgid "Free for all task"
+msgstr "Kõigi ülesannete jaoks tasuta"
+
+#: build/app.js:83
+msgid ""
+"When enabled, all QuickTasker users have the ability to self-assign or "
+"unassign this task."
+msgstr ""
+"Kui see on lubatud, saavad kõik QuickTaskeri kasutajad selle ülesande ise "
+"määrata või selle määramise tühistada."
+
+#: build/app.js:83
+msgid "Restore task"
+msgstr "Taastage ülesanne"
+
+#: build/app.js:83
+msgid "Archive task"
+msgstr "Arhiveeri ülesanne"
+
+#: build/app.js:83
+msgid "Delete task"
+msgstr "Kustuta ülesanne"
+
+#: build/app.js:83
+msgid "Saving..."
+msgstr "Salvestamine..."
+
+#: build/app.js:83 build/userApp.js:83
+msgid "Save"
+msgstr "Salvesta"
+
+#: build/app.js:83 build/userApp.js:83
+msgid "Task completed"
+msgstr "Ülesanne täidetud"
+
+#: build/app.js:83 build/userApp.js:83
+msgid "Task not completed"
+msgstr "Ülesanne on pooleli"
+
+#: build/app.js:83
+msgid "No results found"
+msgstr "Tulemusi ei leitud"
+
+#: build/app.js:83
+msgid "No tasks archived"
+msgstr "Ühtegi ülesannet pole arhiveeritud"
+
+#: build/app.js:83
+msgid "Archived tasks management page."
+msgstr "Arhiveeritud ülesannete haldamise leht."
+
+#: build/app.js:83
+msgid "Add board"
+msgstr "Lisa tahvel"
+
+#: build/app.js:83
+msgid "Edit board"
+msgstr "Muuda tahvlit"
+
+#: build/app.js:83
+msgid "Edit Stage"
+msgstr "Muuda etappi"
+
+#: build/app.js:83
+msgid "Add Stage"
+msgstr "Lisa etapp"
+
+#: build/app.js:83
+msgid "Save changes"
+msgstr "Salvestage muudatused"
+
+#: build/app.js:83
+msgid "Add stage"
+msgstr "Lisa etapp"
+
+#: build/app.js:83
+msgid "Add first stage"
+msgstr "Lisa esimene etapp"
+
+#: build/app.js:83
+msgid "Add your first Board"
+msgstr "Lisage oma esimene tahvel"
+
+#: build/app.js:83
+msgid "Failed to move a stage"
+msgstr "Etapi teisaldamine ebaõnnestus"
+
+#: build/app.js:83
+msgid "Move left"
+msgstr "Liigu vasakule"
+
+#: build/app.js:83
+msgid "Move right"
+msgstr "Liigu paremale"
+
+#: build/app.js:83
+msgid "Edit stage"
+msgstr "Muuda etappi"
+
+#: build/app.js:83
+msgid "Archive all stage tasks"
+msgstr "Arhiivige kõik etapi ülesanded"
+
+#: build/app.js:83
+msgid "Archived all %s tasks"
+msgstr "Arhiivitud kõik %s ülesanded"
+
+#: build/app.js:83
+msgid "Failed to archive stage %s tasks"
+msgstr "Etapi %s ülesande arhiivimine ebaõnnestus"
+
+#: build/app.js:83
+msgid "No tasks to archive on the stage"
+msgstr "Etapis pole arhiviivimiseks ülesandeid"
+
+#: build/app.js:83
+msgid "Delete stage"
+msgstr "Kustuta etapp"
+
+#: build/app.js:83
+msgid "Failed to delete a stage"
+msgstr "Etapi kustutamine ebaõnnestus"
+
+#: build/app.js:83
+msgid "Stage can be deleted when there are no tasks on it"
+msgstr "Etapi saab kustutada, kui sellel pole ülesandeid"
+
+#: build/app.js:83
+msgid "Failed to create task"
+msgstr "Ülesande loomine ebaõnnestus"
+
+#: build/app.js:83
+msgid "Task name is required"
+msgstr "Ülesande nimi on kohustuslik"
+
+#: build/app.js:83
+msgid "Add task"
+msgstr "Lisa ülesanne"
+
+#: build/app.js:83
+msgid "Edit task"
+msgstr "Muuda ülesannet"
+
+#: build/app.js:83
+msgid "Failed to move a task"
+msgstr "Ülesande teisaldamine ebaõnnestus"
+
+#: build/app.js:83
+msgid "Failed to set primary board"
+msgstr "Primaarse tahvli seadistamine ebaõnnestus"
+
+#: build/app.js:83
+msgid "Change board"
+msgstr "Vaheta tahvlit"
+
+#: build/app.js:83
+msgid "Add new board"
+msgstr "Lisa uus tahvel"
+
+#: build/app.js:83
+msgid "User created successfully"
+msgstr "Kasutaja loomine õnnestus"
+
+#: build/app.js:83
+msgid "User creation failed. Please try again"
+msgstr "Kasutaja loomine ebaõnnestus. Palun proovi uuesti"
+
+#: build/app.js:83
+msgid "User edited successfully"
+msgstr "Kasutaja muutmine õnnestus"
+
+#: build/app.js:83
+msgid "User edit failed. Please try again"
+msgstr "Kasutaja muutmine ebaõnnestus. Palun proovi uuesti"
+
+#: build/app.js:83
+msgid "User status changed successfully"
+msgstr "Kasutaja oleku muutmine õnnestus"
+
+#: build/app.js:83
+msgid "Failed to change user status. Please try again"
+msgstr "Kasutaja oleku muutmine ebaõnnestus. Palun proovi uuesti"
+
+#: build/app.js:83
+msgid "User deleted successfully"
+msgstr "Kasutaja kustutamine õnnestus"
+
+#: build/app.js:83
+msgid "Failed to delete user. Please try again"
+msgstr "Kasutaja kustutamine ebaõnnestus. Palun proovi uuesti"
+
+#: build/app.js:83
+msgid "User password reset successfully"
+msgstr "Kasutaja parooli lähtestamine õnnestus"
+
+#: build/app.js:83
+msgid "Failed to reset user password. Please try again"
+msgstr "Kasutaja parooli lähtestamine ebaõnnestus. Palun proovi uuesti"
+
+#: build/app.js:83
+msgid "User tasks"
+msgstr "Kasutaja ülesanded"
+
+#: build/app.js:83
+msgid "Activate user"
+msgstr "Aktiveeri kasutaja"
+
+#: build/app.js:83
+msgid "Disable user"
+msgstr "Kasutaja keelamine"
+
+#: build/app.js:83
+msgid "Reset password"
+msgstr "Lähtestage parool"
+
+#: build/app.js:83
+msgid "Delete user"
+msgstr "Kustuta kasutaja"
+
+#: build/app.js:83 build/userApp.js:83
+msgid "Created at"
+msgstr "Loodud"
+
+#: build/app.js:83 build/userApp.js:83
+msgid "Assigned tasks count"
+msgstr "Määratud ülesanded loevad"
+
+#: build/app.js:83
+msgid "Setup completed"
+msgstr "Seadistamine lõpetatud"
+
+#: build/app.js:83 build/userApp.js:83
+msgid "Yes"
+msgstr "Jah"
+
+#: build/app.js:83 build/userApp.js:83
+msgid "No"
+msgstr "Ei"
+
+#: build/app.js:83
+msgid "Is active"
+msgstr "On aktiivne"
+
+#: build/app.js:83
+msgid "User Page"
+msgstr "Kasutaja leht"
+
+#: build/app.js:83
+msgid "Failed to get user data. Please try again"
+msgstr "Kasutajaandmete laadimine ebaõnnestus. Palun proovi uuesti"
+
+#: build/app.js:83 build/userApp.js:83
+msgid "User details"
+msgstr "Kasutaja andmed"
+
+#: build/app.js:83
+msgid "Failed to fetch user sessions"
+msgstr "Kasutajaseansside laadimine ebaõnnestus"
+
+#: build/app.js:83
+msgid "Session filtering"
+msgstr "Seansi filtreerimine"
+
+#: build/app.js:83
+msgid "Failed to change session status"
+msgstr "Seansi oleku muutmine ebaõnnestus"
+
+#: build/app.js:83
+msgid "On"
+msgstr "Sees"
+
+#: build/app.js:83
+msgid "Off"
+msgstr "Väljas"
+
+#: build/app.js:83
+msgid "Turn session off"
+msgstr "Lülitage seanss välja"
+
+#: build/app.js:83
+msgid "Turn session on"
+msgstr "Lülitage seanss sisse"
+
+#: build/app.js:83
+msgid "Delete session"
+msgstr "Kustuta seanss"
+
+#: build/app.js:83
+msgid "Failed to delete session"
+msgstr "Seansi kustutamine ebaõnnestus"
+
+#: build/app.js:83
+msgid "Session owner"
+msgstr "Seansi omanik"
+
+#: build/app.js:83
+msgid "Expires at"
+msgstr "Aegub kell"
+
+#: build/app.js:83
+msgid "Status"
+msgstr "Olek"
+
+#: build/app.js:83
+msgid "Actions"
+msgstr "Tegevused"
+
+#: build/app.js:83
+msgid "User filtering"
+msgstr "Kasutajate filtreerimine"
+
+#: build/app.js:83
+msgid "Failed to load log"
+msgstr "Logi laadimine ebaõnnestus"
+
+#: build/app.js:83
+msgid "No logs available"
+msgstr "Ühtegi logi pole saadaval"
+
+#: build/app.js:83
+msgid "Logs can be seen only by WordPress admins"
+msgstr "Logisid näevad ainult WordPressi administraatorid"
+
+#: build/app.js:83
+msgid "Failed to load private comments"
+msgstr "Privaatsete kommentaaride laadimine ebaõnnestus"
+
+#: build/app.js:83
+msgid "Failed to add private comment"
+msgstr "Privaatse kommentaari lisamine ebaõnnestus"
+
+#: build/app.js:83
+msgid "No comments available"
+msgstr "Kommentaarid puuduvad"
+
+#: build/app.js:83
+msgid "Comments that can be added and viewed only by WordPress admins."
+msgstr ""
+"Kommentaarid, mida saavad lisada ja vaadata ainult WordPressi "
+"administraatorid."
+
+#: build/app.js:83
+msgid "Failed to load comments"
+msgstr "Kommentaaride laadimine ebaõnnestus"
+
+#: build/app.js:83
+msgid ""
+"Comments that can be added and viewed by both WordPress admins and "
+"QuickTasker user"
+msgstr ""
+"Kommentaarid, mida saavad lisada ja vaadata nii WordPressi administraatorid "
+"kui ka QuickTaskeri kasutajad"
+
+#: build/app.js:83
+msgid "Private comments"
+msgstr "Privaatsed kommentaarid"
+
+#: build/app.js:83
+msgid "Public comments"
+msgstr "Avalikud kommentaarid"
+
+#: build/app.js:83
+msgid "Logs"
+msgstr "Logid"
+
+#: build/app.js:83
+msgid "User name"
+msgstr "Kasutajanimi"
+
+#: build/app.js:83
+msgid "User description"
+msgstr "Kasutaja kirjeldus"
+
+#: build/app.js:83
+msgid "Add User"
+msgstr "Lisa kasutaja"
+
+#: build/app.js:83
+msgid "Edit user"
+msgstr "Muuda kasutajat"
+
+#: build/app.js:83
+msgid "Open user page"
+msgstr "Ava kasutaja leht"
+
+#: build/app.js:83
+msgid "View user details"
+msgstr "Vaadake kasutaja üksikasju"
+
+#: build/app.js:83
+msgid "Active"
+msgstr "Aktiivne"
+
+#: build/app.js:83
+msgid "Disabled"
+msgstr "Keelatud"
+
+#: build/app.js:83
+msgid "No users found"
+msgstr "Ühtegi kasutajat ei leitud"
+
+#: build/app.js:83
+msgid "Create and manage users"
+msgstr "Looge ja hallake kasutajaid"
+
+#: build/app.js:83
+msgid "QuickTasker users page"
+msgstr "QuickTaskeri kasutajate leht"
+
+#: build/app.js:83
+msgid "Failed to fetch user tasks"
+msgstr "Kasutaja ülesannete toomine ebaõnnestus"
+
+#: build/app.js:83
+msgid "Unassign from task"
+msgstr "Tühista ülesande määramine"
+
+#: build/app.js:83
+msgid "User has no tasks"
+msgstr "Kasutajal pole ülesandeid"
+
+#: build/app.js:83
+msgid "Tasks assigned to user"
+msgstr "Kasutajale määratud ülesanded"
+
+#: build/userApp.js:1
+msgid "Your session has expired. Please log in to continue."
+msgstr "Teie seanss on aegunud. Jätkamiseks logige sisse."
+
+#: build/userApp.js:83
+msgid "Your session is about to expire in %s minutes"
+msgstr "Teie seanss aegub %s minuti pärast"
+
+#: build/userApp.js:83
+msgid "View profile"
+msgstr "Vaata profiili"
+
+#: build/userApp.js:83
+msgid "Log out"
+msgstr "Logi välja"
+
+#: build/userApp.js:83
+msgid "Tasks available for self-assignment"
+msgstr "Ülesandeid on võimalik ise teha"
+
+#: build/userApp.js:83
+msgid "Assignable tasks"
+msgstr "Määratavad ülesanded"
+
+#: build/userApp.js:83
+msgid "Created"
+msgstr "Loodud"
+
+#: build/userApp.js:83
+msgid "Assigned tasks:"
+msgstr "Määratud ülesanded:"
+
+#: build/userApp.js:83
+msgid "View assigned tasks"
+msgstr "Kuva määratud ülesandeid"
+
+#: build/userApp.js:83
+msgid "Assignable tasks:"
+msgstr "Ise määratavad ülesanded:"
+
+#: build/userApp.js:83
+msgid "View assignable tasks"
+msgstr "Kuva määratavaid ülesandeid"
+
+#: build/userApp.js:83
+msgid "Please log in to continue"
+msgstr "Jätkamiseks logige sisse"
+
+#: build/userApp.js:83
+msgid "Hello %s"
+msgstr "Tere %s"
+
+#: build/userApp.js:83
+msgid "Please enter a password"
+msgstr "Palun sisesta parool"
+
+#: build/userApp.js:83
+msgid "Login"
+msgstr "Logi sisse"
+
+#: build/userApp.js:83
+msgid "Forgot the password?"
+msgstr "Unustasite parooli?"
+
+#: build/userApp.js:83
+msgid "Please contact the site admin to reset your password"
+msgstr "Parooli lähtestamiseks võtke ühendust saidi administraatoriga"
+
+#: build/userApp.js:83
+msgid "You have %d new %s"
+msgstr "Teil on %d uut %s"
+
+#: build/userApp.js:83
+msgid "comment"
+msgstr "kommentaar"
+
+#: build/userApp.js:83
+msgid "comments"
+msgstr "kommentaarid"
+
+#: build/userApp.js:83
+msgid "Manage user comments"
+msgstr "Halda kasutajate kommentaare"
+
+#: build/userApp.js:83
+msgid "Passwords do not match"
+msgstr "Paroolid ei ühti"
+
+#: build/userApp.js:83
+msgid "Please complete the setup"
+msgstr "Palun viige seadistamine lõpule"
+
+#: build/userApp.js:83
+msgid "Enter your new password"
+msgstr "Sisestage oma uus parool"
+
+#: build/userApp.js:83
+msgid "Repeat your new password"
+msgstr "Korrake oma uut parooli"
+
+#: build/userApp.js:83
+msgid "Setup"
+msgstr "Seadistamine"
+
+#: build/userApp.js:83
+msgid "Task assigned successfully"
+msgstr "Ülesande määramine õnnestus"
+
+#: build/userApp.js:83
+msgid "Task stage changed successfully"
+msgstr "Ülesande etappi muudeti edukalt"
+
+#: build/userApp.js:83
+msgid "Task unassigned successfully"
+msgstr "Ülesande määramise tühistamine õnnestus"
+
+#: build/userApp.js:83
+msgid "No comments found"
+msgstr "Kommentaare ei leitud"
+
+#: build/userApp.js:83
+msgid "Add comment"
+msgstr "Lisa kommentaar"
+
+#: build/userApp.js:83
+msgid "Comments related to the task"
+msgstr "Ülesandega seotud kommentaarid"
+
+#: build/userApp.js:83
+msgid "%s comments"
+msgstr "%s kommentaari"
+
+#: build/userApp.js:83
+msgid "Free for all"
+msgstr "Ülesanne kõigile"
+
+#: build/userApp.js:83
+msgid "Task is completed"
+msgstr "Ülesanne on täidetud"
+
+#: build/userApp.js:83
+msgid "Task is incomplete"
+msgstr "Ülesanne on poolik"
+
+#: build/userApp.js:83
+msgid "Click to change"
+msgstr "Klõpsake muutmiseks"
+
+#: build/userApp.js:83
+msgid "Task stage selection"
+msgstr "Ülesande etapi valik"
+
+#: build/userApp.js:83
+msgid "Task is on stage %s"
+msgstr "Ülesanne on etapil %s"
+
+#: build/userApp.js:83
+msgid "Change stage"
+msgstr "Vaheta etappi"
+
+#: build/userApp.js:83
+msgid "Task details"
+msgstr "Ülesande üksikasjad"
+
+#: build/userApp.js:83
+msgid "Comments related to your user"
+msgstr "Teie kasutajaga seotud kommentaarid"
+
+#: build/userApp.js:83
+msgid "User comments"
+msgstr "Kasutajate kommentaarid"
+
+#: build/userApp.js:83
+msgid "Tasks that are assigned to you"
+msgstr "Teile määratud ülesanded"
+
+#: build/userApp.js:83
+msgid "Assigned tasks"
+msgstr "Määratud ülesanded"
+
+#: build/userApp.js:83
+msgid "User is not active"
+msgstr "Kasutaja ei ole aktiivne"
+
+#: build/userApp.js:83
+msgid "Your user is not active. Please contact site administrator."
+msgstr "Teie kasutaja pole aktiivne. Võtke ühendust saidi administraatoriga."

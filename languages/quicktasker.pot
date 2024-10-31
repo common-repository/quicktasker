@@ -1,0 +1,897 @@
+# Copyright (C) 2024 Siim Kirjanen
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: QuickTasker 1.3.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/quicktasker\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-23T20:28:35+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: quicktasker\n"
+
+#. Plugin Name of the plugin
+#: quicktasker.php
+msgid "QuickTasker"
+msgstr ""
+
+#. Description of the plugin
+#: quicktasker.php
+msgid "Task management plugin to get tasks done with the help of assigned users."
+msgstr ""
+
+#. Author of the plugin
+#: quicktasker.php
+msgid "Siim Kirjanen"
+msgstr ""
+
+#. Author URI of the plugin
+#: quicktasker.php
+msgid "https://github.com/SiimKirjanen"
+msgstr ""
+
+#: php/admin-pages.php:20
+#: php/admin-pages.php:21
+msgid "Boards"
+msgstr ""
+
+#: php/admin-pages.php:38
+#: php/admin-pages.php:39
+msgid "Users"
+msgstr ""
+
+#: php/admin-pages.php:47
+#: php/admin-pages.php:48
+#: build/app.js:83
+msgid "User sessions"
+msgstr ""
+
+#: php/admin-pages.php:56
+#: php/admin-pages.php:57
+#: build/app.js:83
+msgid "Archive"
+msgstr ""
+
+#: build/app.js:1
+#: build/userApp.js:1
+msgid "Something went wrong. Please refresh the page."
+msgstr ""
+
+#: build/app.js:1
+msgid "Failed to fetch archived tasks"
+msgstr ""
+
+#: build/app.js:83
+msgid "Filter tasks"
+msgstr ""
+
+#: build/app.js:83
+msgid "All status"
+msgstr ""
+
+#: build/app.js:83
+msgid "Completed"
+msgstr ""
+
+#: build/app.js:83
+msgid "Not completed"
+msgstr ""
+
+#: build/app.js:83
+msgid "Unable to load the board. Please try again later."
+msgstr ""
+
+#: build/app.js:83
+msgid "Failed to fetch users"
+msgstr ""
+
+#: build/app.js:83
+msgid "Task deleted"
+msgstr ""
+
+#: build/app.js:83
+msgid "Failed to delete a task"
+msgstr ""
+
+#: build/app.js:83
+msgid "Task archived"
+msgstr ""
+
+#: build/app.js:83
+msgid "Failed to archive a task"
+msgstr ""
+
+#: build/app.js:83
+msgid "Task restored"
+msgstr ""
+
+#: build/app.js:83
+msgid "Failed to restore a task"
+msgstr ""
+
+#: build/app.js:83
+msgid "Task has been unassigned"
+msgstr ""
+
+#: build/app.js:83
+msgid "Task unassignment failed. Try again"
+msgstr ""
+
+#: build/app.js:83
+#: build/userApp.js:83
+msgid "Task marked as completed"
+msgstr ""
+
+#: build/app.js:83
+#: build/userApp.js:83
+msgid "Task marked as incomplete"
+msgstr ""
+
+#: build/app.js:83
+msgid "Failed to change task status"
+msgstr ""
+
+#: build/app.js:83
+msgid "Failed to fetch custom fields"
+msgstr ""
+
+#: build/app.js:83
+msgid "Failed to add a custom field"
+msgstr ""
+
+#: build/app.js:83
+msgid "Failed to mark custom field as deleted"
+msgstr ""
+
+#: build/app.js:83
+msgid "Failed to update custom field value"
+msgstr ""
+
+#: build/app.js:83
+msgid "Custom Fields"
+msgstr ""
+
+#: build/app.js:83
+#: build/userApp.js:83
+msgid "Name"
+msgstr ""
+
+#: build/app.js:83
+#: build/userApp.js:83
+msgid "Description"
+msgstr ""
+
+#: build/app.js:83
+msgid "Type"
+msgstr ""
+
+#: build/app.js:83
+msgid "Cancel"
+msgstr ""
+
+#: build/app.js:83
+msgid "Add new custom field"
+msgstr ""
+
+#: build/app.js:83
+msgid "Add"
+msgstr ""
+
+#: build/app.js:83
+msgid "Edit custom field value"
+msgstr ""
+
+#: build/app.js:83
+msgid "This custom field is inherited from %s settings and can't be deleted here"
+msgstr ""
+
+#: build/app.js:83
+msgid "No related custom fields created"
+msgstr ""
+
+#: build/app.js:83
+msgid "Close custom fields"
+msgstr ""
+
+#: build/app.js:83
+msgid "Show custom fields"
+msgstr ""
+
+#: build/app.js:83
+msgid "Coming soon"
+msgstr ""
+
+#: build/app.js:83
+msgid "Add custom fields to this user only."
+msgstr ""
+
+#: build/app.js:83
+msgid "Add custom fields to all users. If you want to add custom fields to a specific user, please go to that user settings."
+msgstr ""
+
+#: build/app.js:83
+msgid "Add custom fields to all tasks in this board."
+msgstr ""
+
+#: build/app.js:83
+msgid "Add custom fields to this task only. If you want to add custom fields to all tasks in this board, please go to board settings."
+msgstr ""
+
+#: build/app.js:83
+msgid "Custom fields applied to this task, including both task-specific and board-level fields."
+msgstr ""
+
+#: build/app.js:83
+msgid "User custom fields"
+msgstr ""
+
+#: build/app.js:83
+msgid "Users custom fields"
+msgstr ""
+
+#: build/app.js:83
+msgid "Board custom fields"
+msgstr ""
+
+#: build/app.js:83
+msgid "Task custom fields"
+msgstr ""
+
+#: build/app.js:83
+#: build/userApp.js:83
+msgid "Assigned users"
+msgstr ""
+
+#: build/app.js:83
+msgid "Failed to remove user"
+msgstr ""
+
+#: build/app.js:83
+msgid "No users assigned"
+msgstr ""
+
+#: build/app.js:83
+msgid "Assign a user"
+msgstr ""
+
+#: build/app.js:83
+msgid "Failed to assign user"
+msgstr ""
+
+#: build/app.js:83
+msgid "No users available to assign"
+msgstr ""
+
+#: build/app.js:83
+#: build/userApp.js:83
+msgid "Admin"
+msgstr ""
+
+#: build/app.js:83
+#: build/userApp.js:83
+msgid "User"
+msgstr ""
+
+#: build/app.js:83
+msgid "Comment added"
+msgstr ""
+
+#: build/app.js:83
+msgid "Failed to add comment"
+msgstr ""
+
+#: build/app.js:83
+msgid "Free for all task"
+msgstr ""
+
+#: build/app.js:83
+msgid "When enabled, all QuickTasker users have the ability to self-assign or unassign this task."
+msgstr ""
+
+#: build/app.js:83
+msgid "Restore task"
+msgstr ""
+
+#: build/app.js:83
+msgid "Archive task"
+msgstr ""
+
+#: build/app.js:83
+msgid "Delete task"
+msgstr ""
+
+#: build/app.js:83
+msgid "Saving..."
+msgstr ""
+
+#: build/app.js:83
+#: build/userApp.js:83
+msgid "Save"
+msgstr ""
+
+#: build/app.js:83
+#: build/userApp.js:83
+msgid "Task completed"
+msgstr ""
+
+#: build/app.js:83
+#: build/userApp.js:83
+msgid "Task not completed"
+msgstr ""
+
+#: build/app.js:83
+msgid "No results found"
+msgstr ""
+
+#: build/app.js:83
+msgid "No tasks archived"
+msgstr ""
+
+#: build/app.js:83
+msgid "Archived tasks management page."
+msgstr ""
+
+#: build/app.js:83
+msgid "Add board"
+msgstr ""
+
+#: build/app.js:83
+msgid "Edit board"
+msgstr ""
+
+#: build/app.js:83
+msgid "Edit Stage"
+msgstr ""
+
+#: build/app.js:83
+msgid "Add Stage"
+msgstr ""
+
+#: build/app.js:83
+msgid "Save changes"
+msgstr ""
+
+#: build/app.js:83
+msgid "Add stage"
+msgstr ""
+
+#: build/app.js:83
+msgid "Add first stage"
+msgstr ""
+
+#: build/app.js:83
+msgid "Add your first Board"
+msgstr ""
+
+#: build/app.js:83
+msgid "Failed to move a stage"
+msgstr ""
+
+#: build/app.js:83
+msgid "Move left"
+msgstr ""
+
+#: build/app.js:83
+msgid "Move right"
+msgstr ""
+
+#: build/app.js:83
+msgid "Edit stage"
+msgstr ""
+
+#: build/app.js:83
+msgid "Archive all stage tasks"
+msgstr ""
+
+#: build/app.js:83
+msgid "Archived all %s tasks"
+msgstr ""
+
+#: build/app.js:83
+msgid "Failed to archive stage %s tasks"
+msgstr ""
+
+#: build/app.js:83
+msgid "No tasks to archive on the stage"
+msgstr ""
+
+#: build/app.js:83
+msgid "Delete stage"
+msgstr ""
+
+#: build/app.js:83
+msgid "Failed to delete a stage"
+msgstr ""
+
+#: build/app.js:83
+msgid "Stage can be deleted when there are no tasks on it"
+msgstr ""
+
+#: build/app.js:83
+msgid "Failed to create task"
+msgstr ""
+
+#: build/app.js:83
+msgid "Task name is required"
+msgstr ""
+
+#: build/app.js:83
+msgid "Add task"
+msgstr ""
+
+#: build/app.js:83
+msgid "Edit task"
+msgstr ""
+
+#: build/app.js:83
+msgid "Failed to move a task"
+msgstr ""
+
+#: build/app.js:83
+msgid "Failed to set primary board"
+msgstr ""
+
+#: build/app.js:83
+msgid "Change board"
+msgstr ""
+
+#: build/app.js:83
+msgid "Add new board"
+msgstr ""
+
+#: build/app.js:83
+msgid "User created successfully"
+msgstr ""
+
+#: build/app.js:83
+msgid "User creation failed. Please try again"
+msgstr ""
+
+#: build/app.js:83
+msgid "User edited successfully"
+msgstr ""
+
+#: build/app.js:83
+msgid "User edit failed. Please try again"
+msgstr ""
+
+#: build/app.js:83
+msgid "User status changed successfully"
+msgstr ""
+
+#: build/app.js:83
+msgid "Failed to change user status. Please try again"
+msgstr ""
+
+#: build/app.js:83
+msgid "User deleted successfully"
+msgstr ""
+
+#: build/app.js:83
+msgid "Failed to delete user. Please try again"
+msgstr ""
+
+#: build/app.js:83
+msgid "User password reset successfully"
+msgstr ""
+
+#: build/app.js:83
+msgid "Failed to reset user password. Please try again"
+msgstr ""
+
+#: build/app.js:83
+msgid "User tasks"
+msgstr ""
+
+#: build/app.js:83
+msgid "Activate user"
+msgstr ""
+
+#: build/app.js:83
+msgid "Disable user"
+msgstr ""
+
+#: build/app.js:83
+msgid "Reset password"
+msgstr ""
+
+#: build/app.js:83
+msgid "Delete user"
+msgstr ""
+
+#: build/app.js:83
+#: build/userApp.js:83
+msgid "Created at"
+msgstr ""
+
+#: build/app.js:83
+#: build/userApp.js:83
+msgid "Assigned tasks count"
+msgstr ""
+
+#: build/app.js:83
+msgid "Setup completed"
+msgstr ""
+
+#: build/app.js:83
+#: build/userApp.js:83
+msgid "Yes"
+msgstr ""
+
+#: build/app.js:83
+#: build/userApp.js:83
+msgid "No"
+msgstr ""
+
+#: build/app.js:83
+msgid "Is active"
+msgstr ""
+
+#: build/app.js:83
+msgid "User Page"
+msgstr ""
+
+#: build/app.js:83
+msgid "Failed to get user data. Please try again"
+msgstr ""
+
+#: build/app.js:83
+#: build/userApp.js:83
+msgid "User details"
+msgstr ""
+
+#: build/app.js:83
+msgid "Failed to fetch user sessions"
+msgstr ""
+
+#: build/app.js:83
+msgid "Session filtering"
+msgstr ""
+
+#: build/app.js:83
+msgid "Failed to change session status"
+msgstr ""
+
+#: build/app.js:83
+msgid "On"
+msgstr ""
+
+#: build/app.js:83
+msgid "Off"
+msgstr ""
+
+#: build/app.js:83
+msgid "Turn session off"
+msgstr ""
+
+#: build/app.js:83
+msgid "Turn session on"
+msgstr ""
+
+#: build/app.js:83
+msgid "Delete session"
+msgstr ""
+
+#: build/app.js:83
+msgid "Failed to delete session"
+msgstr ""
+
+#: build/app.js:83
+msgid "Session owner"
+msgstr ""
+
+#: build/app.js:83
+msgid "Expires at"
+msgstr ""
+
+#: build/app.js:83
+msgid "Status"
+msgstr ""
+
+#: build/app.js:83
+msgid "Actions"
+msgstr ""
+
+#: build/app.js:83
+msgid "User filtering"
+msgstr ""
+
+#: build/app.js:83
+msgid "Failed to load log"
+msgstr ""
+
+#: build/app.js:83
+msgid "No logs available"
+msgstr ""
+
+#: build/app.js:83
+msgid "Logs can be seen only by WordPress admins"
+msgstr ""
+
+#: build/app.js:83
+msgid "Failed to load private comments"
+msgstr ""
+
+#: build/app.js:83
+msgid "Failed to add private comment"
+msgstr ""
+
+#: build/app.js:83
+msgid "No comments available"
+msgstr ""
+
+#: build/app.js:83
+msgid "Comments that can be added and viewed only by WordPress admins."
+msgstr ""
+
+#: build/app.js:83
+msgid "Failed to load comments"
+msgstr ""
+
+#: build/app.js:83
+msgid "Comments that can be added and viewed by both WordPress admins and QuickTasker user"
+msgstr ""
+
+#: build/app.js:83
+msgid "Private comments"
+msgstr ""
+
+#: build/app.js:83
+msgid "Public comments"
+msgstr ""
+
+#: build/app.js:83
+msgid "Logs"
+msgstr ""
+
+#: build/app.js:83
+msgid "User name"
+msgstr ""
+
+#: build/app.js:83
+msgid "User description"
+msgstr ""
+
+#: build/app.js:83
+msgid "Add User"
+msgstr ""
+
+#: build/app.js:83
+msgid "Edit user"
+msgstr ""
+
+#: build/app.js:83
+msgid "Open user page"
+msgstr ""
+
+#: build/app.js:83
+msgid "View user details"
+msgstr ""
+
+#: build/app.js:83
+msgid "Active"
+msgstr ""
+
+#: build/app.js:83
+msgid "Disabled"
+msgstr ""
+
+#: build/app.js:83
+msgid "No users found"
+msgstr ""
+
+#: build/app.js:83
+msgid "Create and manage users"
+msgstr ""
+
+#: build/app.js:83
+msgid "QuickTasker users page"
+msgstr ""
+
+#: build/app.js:83
+msgid "Failed to fetch user tasks"
+msgstr ""
+
+#: build/app.js:83
+msgid "Unassign from task"
+msgstr ""
+
+#: build/app.js:83
+msgid "User has no tasks"
+msgstr ""
+
+#: build/app.js:83
+msgid "Tasks assigned to user"
+msgstr ""
+
+#: build/userApp.js:1
+msgid "Your session has expired. Please log in to continue."
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Your session is about to expire in %s minutes"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "View profile"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Log out"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Tasks available for self-assignment"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Assignable tasks"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Created"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Assigned tasks:"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "View assigned tasks"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Assignable tasks:"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "View assignable tasks"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Please log in to continue"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Hello %s"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Please enter a password"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Login"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Forgot the password?"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Please contact the site admin to reset your password"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "You have %d new %s"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "comment"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "comments"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Manage user comments"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Passwords do not match"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Please complete the setup"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Enter your new password"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Repeat your new password"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Setup"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Task assigned successfully"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Task stage changed successfully"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Task unassigned successfully"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "No comments found"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Add comment"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Comments related to the task"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "%s comments"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Free for all"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Task is completed"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Task is incomplete"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Click to change"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Task stage selection"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Task is on stage %s"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Change stage"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Task details"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Comments related to your user"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "User comments"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Tasks that are assigned to you"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Assigned tasks"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "User is not active"
+msgstr ""
+
+#: build/userApp.js:83
+msgid "Your user is not active. Please contact site administrator."
+msgstr ""
